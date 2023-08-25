@@ -1,0 +1,201 @@
+:root {
+    --lilac-color-: #f0e5ff;
+    --blue-: #eef2f7;
+    --duck--: #008080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f8;
+    width: 100%;
+}
+
+.topmargin {
+    margin-top: 5.5rem !important;
+}
+
+.sectionp {
+    padding: 140px 0;
+}
+
+
+
+header nav ul li a {
+    text-transform: capitalize;
+}
+.hero {
+    height: 90vh;
+    width: 100vw;
+}
+
+
+.hero img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero button {
+    padding: 15px 20px;
+    position: absolute;
+    top: 90%;
+    left: 49%;
+    text-transform: uppercase;
+    
+    
+}
+
+.action {
+    background-color: #f1f5f8;
+    padding: 140px 0;
+}
+.action img {
+    width: 100%;
+}
+
+.multimedia {
+    background-color: #ccccc9;
+    text-align: center;
+    padding: 140px 0;
+}
+.multimedia img {
+    width: 100%;
+}
+
+.newsletter {
+    text-align: center;
+    background-color: white;
+    padding: 140px 0;
+}
+
+.newsletter h2 {
+    color: #009100;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    margin-bottom: 20px;
+}
+.newsletter input {
+    padding: 10px;
+    background-color: #f1f5f8;
+}
+
+button[type=submit] {
+    background-color: #009100;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 4px;
+
+}
+
+footer {
+    background-color: #080f1b;
+    color: white;
+    width: 100%;
+    padding: 40px 80px;
+    bottom: 0;
+}
+
+footer .link {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer #f-link {
+    display: flex;
+    gap: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: #d9d9d9;
+}
+footer a:hover {
+    color: #009100;
+}
+
+footer .f-link {
+    text-transform: uppercase;
+}
+
+footer button {
+    padding: 15px 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+}
+
+footer button:hover {
+    background-color: #009100;
+    color: white;
+    border: none;
+}
+
+
+.deuxieme_p {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.deuxieme_p .text {
+    padding-top: 30px;
+}
+
+.photo {
+    background-color: #d9d9d9;
+    padding-top: 30px;
+    width: 100%;
+    height: 80%;
+}
+
+
+.plan_de_travail {
+    background-color: #fff;
+    padding: 30px 0;
+}
+.plan_de_travail .div-wrapper {
+    background-color: #f5f5f5;
+    padding: 5.5rem 3rem 3rem;
+    border: 1px solid #d9d9d9;
+}
+
+.domaine {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.image {
+    background-color: #d9d9d9;
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.reunion {
+    padding: 140px 0;
+    background-image: linear-gradient(to bottom right, #ffffff 95% , #f1f5f8);
+}
+
+.reunion-title {
+   padding: 0 100px;
+}
+
+.reunion-title button {
+    color: #080f1b;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.photos img {
+    width: 400px;
+    height: 300px;
+}
