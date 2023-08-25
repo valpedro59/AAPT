@@ -199,3 +199,47 @@ footer button:hover {
     width: 400px;
     height: 300px;
 }
+
+.custo {
+    text-decoration: none;
+    color: #222;
+    position: relative;
+}
+
+.custo h4::after {
+    content: "";
+    background: #00a1d9;
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+.member {
+    padding: 140px 0;
+}
+
+.wrapper-bleu {
+    background-color: #00a1d9;
+    color: #fff;
+    padding: 2rem;
+}
+
+@media (max-width: 991.98px) { 
+    
+    footer {
+        padding: 40px 20px;
+    }
+
+    footer #f-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photos img {
+        width: 100%;
+    }
+
+ }
+ 
